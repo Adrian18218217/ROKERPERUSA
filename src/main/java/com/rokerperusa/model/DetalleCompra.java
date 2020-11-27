@@ -13,7 +13,6 @@ public class DetalleCompra {
 	private Producto id_producto;
 	
 	public DetalleCompra(int cantidad, int id_compra, int id_producto) {
-		super();
 		this.cantidad = cantidad;
 		this.id_compra = id_compra;
 		this.id_producto = id_producto;
